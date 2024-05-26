@@ -3,7 +3,7 @@
 Brest cancer detection from MRI scans and patient details using custom CNN architecture.
 
 Data Set: 
-- https://www.kaggle.com/competitions/rsna-breast-cancer-detection/data
+- https://www.kaggle.com/datasets/uzairkhan45/breast-cancer-patients-mris
 
 Predictions are made per breast based on:
 - scans: The mammograms, in dicom format.
