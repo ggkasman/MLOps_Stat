@@ -1,20 +1,23 @@
-# MLOps Course Project
-Data Set:
+# MLOps Course Project - Breast Cancer Detection
 
-https://www.kaggle.com/competitions/rsna-breast-cancer-detection/data
+Brest cancer detection from MRI scans and patient details using custom CNN architecture.
 
-Predictions are made per breast based on:
+Data Set: 
+- https://www.kaggle.com/competitions/rsna-breast-cancer-detection/data
 
-scans: The mammograms, in dicom format.
-site_id: ID code for the source hospital.
-patient_id: ID code for the patient.
-image_id: ID code for the image.
-laterality: Whether the image is of the left or right breast.
-view: The orientation of the image. The default for a screening exam is to capture two views per breast.
-age: The patient's age in years.
-implant: Whether or not the patient had breast implants. Site 1 only provides breast implant information at the patient level, not at the breast level.
-density: A rating for how dense the breast tissue is, with A being the least dense and D being the most dense. Extremely dense tissue can make diagnosis more difficult. Only provided for train.
-machine_id: An ID code for the imaging device.
+Prediction are made per breast based on:
+- scans: The mammograms, in dicom format.
+- site_id: ID code for the source hospital.
+- patient_id: ID code for the patient.
+- image_id: ID code for the image.
+- laterality: Whether the image is of the left or right breast.
+- view: The orientation of the image. The default for a screening exam is to capture two views per breast.
+- age: The patient's age in years.
+- implant: Whether or not the patient had breast implants. Site 1 only provides breast implant information at the patient level, not at the breast level.
+- density: A rating for how dense the breast tissue is, with A being the least dense and D being the most dense. Extremely dense tissue can make diagnosis more difficult. Only provided for train.
+- machine_id: An ID code for the imaging device.
+
+Kaggle Competition: https://www.kaggle.com/competitions/rsna-breast-cancer-detection
 
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
