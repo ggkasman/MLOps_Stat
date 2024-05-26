@@ -56,7 +56,7 @@ Brest cancer detection from MRI scans and patient details using custom CNN archi
 │
 ├── setup.cfg          <- Configuration file for flake8
 │
-└── MLOps_Course                <- Source code for use in this project.
+└── src                <- Source code for use in this project.
     │
     ├── __init__.py    <- Makes MLOps_Course a Python module
     │
