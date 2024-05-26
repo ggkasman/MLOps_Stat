@@ -17,8 +17,6 @@ Predictions are made per breast based on:
 - density: A rating for how dense the breast tissue is, with A being the least dense and D being the most dense. Extremely dense tissue can make diagnosis more difficult. Only provided for train.
 - machine_id: An ID code for the imaging device.
 
-Kaggle Competition: https://www.kaggle.com/competitions/rsna-breast-cancer-detection
-
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
