@@ -3,7 +3,7 @@ Data Set:
 
 https://www.kaggle.com/competitions/rsna-breast-cancer-detection/data
 
-Prediction are made per breast based on:
+Predictions are made per breast based on:
 
 scans: The mammograms, in dicom format.
 site_id: ID code for the source hospital.
